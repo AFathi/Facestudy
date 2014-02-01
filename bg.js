@@ -1,4 +1,7 @@
-//functions needed getDay() getMonth() getFullYear()
+/*
+Ahmed Fathi Copyrights 2014 All rights reserved
+http://afapps.net/
+*/
 var date = new Date();
 
 chrome.extension.sendRequest({storage: 'day'}, function(response) {

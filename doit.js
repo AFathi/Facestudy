@@ -1,3 +1,7 @@
+/*
+Ahmed Fathi Copyrights 2014 All rights reserved
+http://afapps.net/
+*/
 document.getElementById('save').onclick = function() {
   var syr = document.getElementById("years");
   var yrs = syr.children[syr.selectedIndex].value;
