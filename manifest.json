@@ -1,0 +1,19 @@
+{
+  "name": "Facestudy",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Facestudy blocks you from entering facebook to study well for next day's quiz or exam. Created by Ahmed Fathi",
+  "options_page": "options.html",
+  "permissions": ["storage"],
+   "content_scripts": [ {
+      "js": [ "bg.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_start"
+   } ],
+     "background": {
+     "scripts": ["background.js"]
+     },
+     "icons": { "16": "icons/i16.png",
+           "48": "icons/i48.png",
+          "128": "icons/i128.png" }
+}

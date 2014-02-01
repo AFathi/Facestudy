@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>Facestudy - Choose a day</title>
+</head>
+<style>
+@font-face{
+font-family:fr;
+src: url('http://afapps.net/fr.ttf');
+}
+@font-face{
+font-family:hl;
+src: url('http://afapps.net/light.ttf');
+}
+body {
+background-color:#017a9c;
+}
+h1{
+font-family:fr;
+color:#10c6c6;
+font-size:120px;
+text-align:center;
+margin-top:45px;
+}
+h2{
+font-family:hl;
+color:white;
+text-align:left;
+margin-left:145px;
+}
+h3{
+font-family:hl;
+color:white;
+font-size:35px;
+text-align:left;
+margin-left:140px;
+}
+#days{
+margin-left:190px;
+}
+#months{
+margin-left:190px;
+}
+#years{
+margin-left:190px;
+}
+
+.savefi {
+outline:0;
+	-moz-box-shadow: 0px 2px 5px -1px #000000;
+	-webkit-box-shadow: 0px 2px 5px -1px #000000;
+	box-shadow: 0px 2px 5px -1px #000000;
+	background-color:#14b8b8;
+	-webkit-border-top-left-radius:16px;
+	-moz-border-radius-topleft:16px;
+	border-top-left-radius:16px;
+	-webkit-border-top-right-radius:16px;
+	-moz-border-radius-topright:16px;
+	border-top-right-radius:16px;
+	-webkit-border-bottom-right-radius:16px;
+	-moz-border-radius-bottomright:16px;
+	border-bottom-right-radius:16px;
+	-webkit-border-bottom-left-radius:16px;
+	-moz-border-radius-bottomleft:16px;
+	border-bottom-left-radius:16px;
+	border:1px solid white;
+	color:white;
+	font-family:hl;
+	font-size:25px;
+	font-style:normal;
+	height:56px;
+	line-height:56px;
+	width:300px;
+	margin:auto;
+	margin-left:190px;
+    width:10%;
+	text-align:center;
+	cursor:pointer;
+}
+
+.savefi:active {
+	position:relative;
+	top:1px;
+}
+
+ select {
+
+      border: 2;  /*Removes border*/
+      border-color:white;
+      border-radius:1;
+ -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+      -moz-appearance: none; /* Removes Default Firefox style*/
+ background: url('http://s27.postimg.org/v9pyo4cpr/drop.png') no-repeat;
+      background-color:white;
+      background-size: 30px 30px;
+      background-position: left 10px;  /*Position of the 
+      width: 250px; /*Width of select dropdown to give space for arrow 
+      text-indent: 0.01px; /* Removes default arrow from firefox*/
+      font-family:hl;
+	  font-size:20px;
+      height:55px;
+margin:auto;
+width:60%;
+text-align:right;
+outline:0;
+}
+</style>
+<body>
+<h1>FACESTUDY</h1>
+<h3>When will be your next quiz or exam?</h3>
+<h2>Day:</h2>
+<select id="days">
+ <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</option>
+ <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</option>
+ <option value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</option>
+ <option value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</option>
+  <option value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</option>
+ <option value="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</option>
+ <option value="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7</option>
+ <option value="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8</option>
+  <option value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9</option>
+ <option value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</option>
+ <option value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11</option>
+ <option value="12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12</option>
+  <option value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13</option>
+ <option value="14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14</option>
+ <option value="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15</option>
+ <option value="16">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</option>
+  <option value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17</option>
+ <option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18</option>
+ <option value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19</option>
+ <option value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20</option>
+  <option value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21</option>
+ <option value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22</option>
+ <option value="23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23</option>
+ <option value="24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24</option>
+  <option value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25</option>
+ <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26</option>
+ <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27</option>
+ <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28</option>
+  <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29</option>
+ <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30</option>
+ <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31</option>
+</select>
+
+<h2>Month:</h2>
+<select id="months">
+    <option value="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;January</option>
+    <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;February</option>
+    <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March</option>
+    <option value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;April</option>
+    <option value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May</option>
+    <option value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;June</option>
+    <option value="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;July</option>
+    <option value="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August</option>
+    <option value="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September</option>
+    <option value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;October</option>
+    <option value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November</option>
+    <option value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;December</option>
+</select>
+
+<h2>Year:</h2>
+<select id="years">
+ <option value="2014">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</option>
+ <option value="2015">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</option>
+ <option value="2016">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016</option>
+ <option value="2017">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017</option>
+  <option value="2018">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018</option>
+ <option value="2019">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019</option>
+ <option value="2020">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020</option>
+ <option value="2021">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021</option>
+</select>
+<br>
+<br>
+<button id="save" class="savefi">Save</button>
+</body>
+
+<script src="doit.js"></script>
+</html>
