@@ -1,12 +1,9 @@
-/*
-Ahmed Fathi Copyrights 2014 All rights reserved
-http://afapps.net/
-*/
+
 {
   "name": "Facestudy",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Facestudy blocks you from entering facebook to study well for next day's quiz or exam. Created by Ahmed Fathi",
+  "description": "Facestudy blocks you from entering facebook to study well for next day's quiz or exam. Created by Ahmed Fathi. Ahmed Fathi Copyrights 2014 All rights reserved",
   "options_page": "options.html",
   "permissions": ["storage"],
    "content_scripts": [ {
